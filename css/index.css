@@ -1,0 +1,428 @@
+body
+{
+	background-image:url("../images/background.avif");
+	width:100%;
+	object-fit:cover;
+	background-attachment:fixed;
+	background-size:100% 700px;
+	overflow-y:auto;
+	background-repeat:repeat;
+	
+	
+}
+
+.wrapper
+{
+	width:400px;
+	margin:30px auto auto auto;
+
+}
+.myBanner #cog-outer
+{
+	float:right;
+	height:170px;
+	width:170px;
+	margin:10px 20px 10px auto;
+	position:relative;
+	z-index:2;
+	padding:0px;
+	border-radius:50%;
+	text-align:center;
+
+}
+
+#cog-outer #cog-inner
+{
+	width:170px;
+	height:170px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	text-align:center;
+
+
+}
+
+.myBanner
+{
+	width:400px;
+	margin:auto;
+	background-image:linear-gradient(to right,#c084fc,#f9a8d4);
+	border-width:2px 2px 0px 2px;
+	border-style:solid;
+	border-color:#9333ea;
+
+	height:200px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
+
+.myRow
+{
+	width:400px;
+	height:auto;
+	background-color:#fce7f3;
+	border-width:0px 2px 2px 2px;
+	border-color:#9333ea;
+	border-style:solid;
+	box-sizing:border-box;
+	margin:auto;
+
+}
+
+.carousel-item 
+{
+	padding:10px;
+
+}
+
+#flexOutput
+{
+	padding:0px;
+}
+
+#flexContainer
+{
+	height:230px;
+	overflow-y:auto;
+	position:fixed;
+	top:0px;
+	right:10px;
+	display:flex;
+	flex-direction:column;
+	width:340px;
+	padding:0px;
+	box-sizing:border-box;
+	z-index:4;
+
+}
+
+#flexContainer H2
+{
+	align-self:flex-start;
+	color:#9333ea;
+	margin:0px;
+	padding:0px;
+	width:320px;
+
+}
+
+#flexContainer div
+{
+	width:320px;
+	border:1px solid #9333ea;
+	border-radius:3%;
+	background-image:linear-gradient(to right bottom,#c084fc,#f9a8d4);
+	height:160px;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0px;
+
+}
+
+#flexContainer hr
+{
+	margin:0px;
+	padding:0px;
+}
+
+#flexContainer button
+{
+	float:right;
+	margin:auto 5px auto auto;
+}
+
+#flexContainer #buttons
+{
+	padding:0px;
+	height:auto;
+}
+
+#finalBill
+{
+	padding:0px;
+	width:400px;
+	overflow-x:auto;
+	border-radius:3%;
+	box-sizing:border-box;
+	height:450px;
+	overflow-y:auto;
+	position:fixed;
+	top:10px;
+	left:0px;
+	z-index:5;
+	display:none;	
+
+}
+
+#finalBill #bankInfo
+{
+	width:400px;
+	height:215px;
+	overflow-x:auto;
+	display:none;
+	padding:0px;
+	box-sizing:border-box;
+	border:1px solid #9333ea;
+	border-radius:3%;
+	margin:auto;
+}
+
+#bankInfo img
+{
+	width:30px;
+	margin:auto auto auto 15px;
+}
+
+
+#finalBill #billTable
+{
+	width:400px;
+	height:200px;
+	overflow-x:auto;
+	background-color:#7e22ce;
+	border-radius:3%;
+	padding:0px;
+	overflow-y:auto;
+	border:1px solid white;
+	box-sizing:border-box;
+	margin:auto;
+
+}
+
+#finalBill h2
+{
+	margin:auto;
+	padding:0px;
+	color:white;
+
+}
+
+#bankInfo input[type="text"]
+{
+	border-radius:4px;
+	border:1px solid #9333ea;
+}
+
+#bankInfo input[type="password"]
+{
+	border-radius:4px;
+}
+
+.table-product-heading
+{
+	width:140px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-items-heading
+{
+	width:50px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-product-content
+{
+	width:140px;
+	height:140px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.table-product-items
+{
+	width:50px;
+	height:140px;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-product-total
+{
+	width:70px;
+	padding:20px;
+	text-align:center;
+	height:140px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-total-heading
+{
+	width:70px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+#billTable table
+{
+	width:310px;
+	height:auto;
+	margin:auto;
+	border:1px solid white;
+	border-collapse:collapse;
+}
+
+#billTable th,td
+{
+	color:white;
+	border:1px solid white;
+	font-weight:600;
+}
+
+#finalBill #buttons2
+{
+	width:400px;
+	overflow-x:auto;
+	height:50px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
+
+#buttons2 #backToCart
+{
+	float:left;
+	margin:0px auto 0px 10px;
+	height:50px;
+}
+
+#buttons2 #pay
+{
+	float:right;
+	margin:0px 10px 0px auto;
+	height:50px;
+}
+
+.carousel-item .img1
+{
+	width:180px;
+	height:180px;
+	object-fit:cover;
+	border:1px solid #9333ea;
+	margin-left:10px;
+	margin-bottom:10px;
+
+}
+
+.carousel-item .img2
+{
+	width:180px;
+	margin-top:3px;
+	height:180px;
+	object-fit:cover;
+	border:1px solid #9333ea;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#footer
+{
+	width:400px;
+	padding:0px;
+	margin:auto;
+	height:45px;
+	background-image:linear-gradient(to right bottom,#c084fc,#f9a8d4);
+	border-width:0px 2px 2px 2px;
+	border-color:#9333ea;
+	border-style:solid;
+	box-sizing:border-box;
+
+}
+
+#footer #myMail
+{
+	width:300px;
+	float:right;
+	margin:5px 10px auto auto;
+	font-family:myFont;
+	color:#9d174d;
+	text-align:right;
+	height:45px;
+	padding:0px;
+
+}
+
+
+@font-face
+{
+	src:url(../fonts/SophieMonoSerif.ttf);
+	font-family:myFont;
+}
+
+@media screen and (min-width:960px)
+{
+	.wrapper{width:960px;}
+	body{height:1000px;overflow-y:auto;background-repeat:repeat;width:100%;}
+	.myBanner{width:960px;}
+	.myRow{width:960px;}
+	nav{width:960px;}
+	#demo{width:960px;}
+	.carousel-item{padding:20px;}
+	#finalBill{width:550px;top:10px;left:350px;position:fixed;height:560px;}
+	#finalBill #bankInfo{width:530px;padding:10px;box-sizing:border-box;}
+	#finalBill #billTable{width:530px;padding:30px;box-sizing:border-box;height:310px;overflow-y:auto;}
+	#finalBill #buttons2{width:530px;padding:0px 10px 0px 10px;}
+	#flexContainer{height:430px;overflow-y:auto;}
+	.carousel-item .img1{width:450px;height:200px;object-fit:cover;border:1px solid #9333ea;}
+	.carousel-item .img2{width:450px;margin-top:3px;height:200px;object-fit:cover;border:1px solid #9333ea;}
+	#footer{width:960px;}
+	#footer #myMail{width:400px;float:right;}
+
+}
+
+
+@media screen and (min-width:700px) and (max-width:960px)
+{
+	.wrapper{width:630px;margin:auto}
+	body{height:800px;overflow-y:auto;background-repeat:repeat;width:100%;}
+	.carousel-item{padding:20px;}
+	.myBanner{width:630px;}
+	.myRow{width:630px;}
+	nav{width:630px;}
+	#demo{width:630px;}
+	.carousel-item{padding:15px;}
+	.carousel-item .img1{width:290px;height:200px;object-fit:cover;border:1px solid #9333ea;margin-left:15px;margin-bottom:10px;}
+	.carousel-item .img2{width:290px;height:200px;object-fit:cover;border:1px solid #9333ea;margin-left:15px;margin-bottom:10px;}
+	#finalBill{width:550px;top:10px;left:50px;position:fixed;height:450px;overflow-y:auto;}
+	#finalBill #bankInfo{width:530px;padding:10px;box-sizing:border-box;}
+	#finalBill #billTable{width:530px;padding:30px;box-sizing:border-box;height:200px;overflow-y:auto;}
+	#finalBill #buttons2{width:530px;padding:0px 10px 0px 10px;}
+	#flexContainer{height:200px;overflow-y:auto;}
+	#footer{width:630px;}
+	#footer #myMail{width:400px;float:right;}
+}
+#bankInfo img
+{
+	width:30px;
+	margin:auto auto auto 15px;
+}
+
+	
+#bankInfo
+{
+    background: linear-gradient(135deg, #FCE4EC, #E1BEE7, #F8BBD0) !important;
+    border: 2px solid #CE93D8;
+    border-radius: 15px;
+}
+
+	
